@@ -1,3 +1,5 @@
+//question link:    https://exercism.org/tracks/go/exercises/card-tricks
+
 package cards
 
 //Favori Kartlar, bu sırayla 2, 6 ve 9 numaralı kartlarla bir dilim döndürür.
