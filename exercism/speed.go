@@ -1,3 +1,5 @@
+// https://exercism.org/tracks/go/exercises/need-for-speed
+
 package speed
 
 // Define a Car struct with the following int type fields:
