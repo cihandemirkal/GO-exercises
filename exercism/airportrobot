@@ -1,0 +1,43 @@
+// https://exercism.org/tracks/go/exercises/airport-robot
+
+package airportrobot
+
+import "fmt"
+
+type Greeter interface {
+	LanguageName() string
+	Greet(name string) string
+}
+
+type German struct {
+}
+
+func (g *German) LanguageName() string {
+	return "German"
+}
+
+func (g *German) Greet(name string) string {
+	return fmt.Sprintf("Hallo %s!", name)
+}
+
+type Italian struct {
+}
+
+func (italy *Italian) LanguageName() string {
+	return "Italian"
+}
+
+func (italy *Italian) Greet(name string) string {
+	return fmt.Sprintf("Ciao %s!", name)
+}
+
+type Portuguese struct {
+}
+
+func (por *Portuguese) LanguageName() string {
+	return "Portuguese"
+}
+
+func (por *Portuguese) Greet(name string) string {
+	return fmt.Sprintf("Ola %s!", name)
+}
