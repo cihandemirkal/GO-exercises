@@ -1,4 +1,4 @@
-// https://exercism.org/tracks/go/exercises/bird-watcher
+//question link: https://exercism.org/tracks/go/exercises/bird-watcher
 
 package bird
 
