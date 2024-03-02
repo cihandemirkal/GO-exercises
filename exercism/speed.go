@@ -1,4 +1,4 @@
-// https://exercism.org/tracks/go/exercises/need-for-speed
+//question link: https://exercism.org/tracks/go/exercises/need-for-speed
 
 package speed
 
