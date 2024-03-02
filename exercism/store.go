@@ -1,5 +1,6 @@
-package store
+// https://exercism.org/tracks/go/exercises/gross-store
 
+package store
 // Units store the Gross Store unit measurement
 func Units() map[string]int {
 	return map[string]int{
