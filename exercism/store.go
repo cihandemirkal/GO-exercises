@@ -1,4 +1,4 @@
-// https://exercism.org/tracks/go/exercises/gross-store
+//question link: https://exercism.org/tracks/go/exercises/gross-store
 
 package store
 // Units store the Gross Store unit measurement
